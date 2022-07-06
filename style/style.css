@@ -283,6 +283,7 @@ body {
 }
 
 .latest-post-short ul li a {
+     color: #220033;
      text-decoration: none;
      text-transform: capitalize;
      font-size: 1.2rem;
