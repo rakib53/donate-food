@@ -206,6 +206,91 @@ body {
 
 /* Donate plan css end here */
 
+/* Latest post css start here */
+.latest-post-wrapper {
+     display: flex;
+     gap: 5%;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.lastest-post-expand {
+     width: 60%;
+     border-right: 1px solid #dddddd;
+}
+
+.latest-post {
+     margin: 20px 0;
+     display: flex;
+}
+
+.latest-post-short {
+     width: 40%;
+}
+
+.latest-post .post-image {
+     margin-right: 20px;
+}
+.latest-post .post-image img {
+     width: 250px;
+     height: 170px;
+     object-fit: cover;
+}
+
+.post-date {
+     color: #fd6d5e;
+     font-weight: 600;
+     margin-bottom: 15px;
+     text-transform: uppercase;
+}
+
+.post-date span {
+     color: #575757;
+}
+
+.post-body .post-title {
+     color: #220033;
+     text-transform: capitalize;
+     font-weight: 500;
+     margin-bottom: 10px;
+}
+
+.post-body .post-title:hover {
+     color: #ff980e;
+     cursor: pointer;
+     transition: all 0.3s ease-in-out;
+}
+
+.post-body .post-desc {
+     font-weight: 400;
+     margin-bottom: 10px;
+}
+
+.post-body .continue-reading {
+     font-size: 16px;
+     color: #ff980e;
+     font-weight: 500;
+     cursor: pointer;
+     text-transform: uppercase;
+}
+
+.latest-post-short ul li {
+     list-style: none;
+     margin: 25px 0;
+     padding: 10px 0;
+     line-height: 2rem;
+     border-bottom: 1px solid rgb(177, 168, 168);
+}
+
+.latest-post-short ul li a {
+     text-decoration: none;
+     text-transform: capitalize;
+     font-size: 1.2rem;
+     font-weight: 500;
+}
+
+/* Latest post css end here */
+
 /* Get My update css start here */
 
 .my-updates {
@@ -262,13 +347,14 @@ body {
 
 footer {
      width: 100%;
+     padding: 50px 0;
      background-color: #000000;
 }
 
 footer h2 {
      font-size: 2rem;
      color: #ff5959;
-     padding: 50px 0 20px;
+     padding-bottom: 20px;
      text-align: center;
      font-family: "Courgette", cursive;
 }
@@ -277,7 +363,6 @@ footer p {
      color: rgb(185, 177, 177);
      text-align: center;
      font-size: 13px;
-     padding: 0 0 30px;
      font-family: "Open Sans", sans-serif;
 }
 
